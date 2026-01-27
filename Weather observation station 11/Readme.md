@@ -7,3 +7,13 @@ The STATION table is described as follows:
 <img width="300" height="290" alt="image" src="https://github.com/user-attachments/assets/0ee32c7a-8035-48ac-ba08-a150b1676e3f" />
 
 where LAT_N is the northern latitude and LONG_W is the western longitude.
+
+### Explaination:
+
+SELECT DISTINCT CITY → gets city names without duplicates
+
+NOT LIKE 'A%' … 'U%' → checks city does not start with a vowel
+
+NOT LIKE '%A' … '%U' → checks city does not end with a vowel
+
+OR → city is selected if either condition is true
