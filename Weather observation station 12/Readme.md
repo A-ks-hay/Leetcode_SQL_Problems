@@ -10,3 +10,13 @@ The STATION table is described as follows:
 
 where LAT_N is the northern latitude and LONG_W is the western longitude.
 
+### Explanation:
+
+DISTINCT → removes duplicate city names
+
+NOT LIKE 'A%' → city does not start with a vowel
+
+NOT LIKE '%A' → city does not end with a vowel
+
+Applied for all vowels: A, E, I, O, U
+
