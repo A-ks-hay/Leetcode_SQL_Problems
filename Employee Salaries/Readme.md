@@ -22,15 +22,12 @@ Todd
 
 Joe
 
-### Explanation
+### Code Explanation
 
-Angela has been an employee for 1 month and earns $3443 per month.
+SELECT name → gets only the employee names
 
-Michael has been an employee for 6 months and earns $2017 per month.
+FROM Employee → selects data from the Employee table
 
-Todd has been an employee for 5 months and earns $3396 per month.
+WHERE salary > 2000 AND months < 10 → filters employees earning more than 2000 per month and working for less than 10 months
 
-Joe has been an employee for 9 months and earns $3573 per month.
-
-We order our output by ascending employee_id.
-
+ORDER BY employee_id ASC → sorts the result by employee ID in ascending order
