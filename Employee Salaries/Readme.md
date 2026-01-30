@@ -24,10 +24,10 @@ Joe
 
 ### Code Explanation
 
-SELECT name → gets only the employee names
+SELECT name → gets only the employee names.
 
-FROM Employee → selects data from the Employee table
+FROM Employee → selects data from the Employee table.
 
-WHERE salary > 2000 AND months < 10 → filters employees earning more than 2000 per month and working for less than 10 months
+WHERE salary > 2000 AND months < 10 → filters employees earning more than 2000 per month and working for less than 10 months.
 
-ORDER BY employee_id ASC → sorts the result by employee ID in ascending order
+ORDER BY employee_id ASC → sorts the result by employee ID in ascending order.
