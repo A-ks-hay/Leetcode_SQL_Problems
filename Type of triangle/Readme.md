@@ -18,4 +18,15 @@ Each row in the table denotes the lengths of each of a triangle's three sides.
 
 ### Sample Input
 
+<img width="313" height="219" alt="image" src="https://github.com/user-attachments/assets/554f780e-8e23-4701-a735-9d9abd97bada" />
+
+### Sample Output
+
+Isosceles
+
+Equilateral
+
+Scalene
+
+Not A Triangle
 
