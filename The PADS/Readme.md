@@ -1,4 +1,4 @@
-Generate the following two result sets:
+### Generate the following two result sets:
 
 1. Query an alphabetically ordered list of all names in OCCUPATIONS, immediately followed by the first letter of each profession as a parenthetical (i.e.: enclosed in parentheses). For example: AnActorName(A), ADoctorName(D), AProfessorName(P), and ASingerName(S).
 2. Query the number of ocurrences of each occupation in OCCUPATIONS. Sort the occurrences in ascending order, and output them in the following format:
@@ -34,5 +34,24 @@ The results of the first query are formatted to the problem description's specif
 
 The results of the second query are ascendingly ordered first by number of names corresponding to each profession (2<=2<=3<=3), and then alphabetically by profession (doctor<= singer, and actor<=professor ).
 
+### Code Explaination:
+
+### Query 1
+
+LEFT(Occupation,1) → first letter of occupation
+
+CONCAT() → combines name + letter
+
+ORDER BY Name → alphabetical order
+
+### Query 2
+
+COUNT(*) → number of people per occupation
+
+GROUP BY Occupation → grouping
+
+LOWER() → lowercase output
+
+ORDER BY COUNT(*), Occupation → ascending count, alphabetical tie-break
 
 
