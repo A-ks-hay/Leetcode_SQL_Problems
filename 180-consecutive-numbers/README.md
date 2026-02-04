@@ -42,5 +42,38 @@ Logs table:
 +-----------------+
 | 1               |
 +-----------------+
-<strong>Explanation:</strong> 1 is the only number that appears consecutively for at least three times.
+<strong>Explanation:</strong> 
+  
+1. logs a
+
+Creates an alias a for the table.
+
+We compare each row with the next rows.
+
+2. a.num = (select num where id = a.id + 1)
+
+Checks if next row has the same number.
+
+3. a.num = (select num where id = a.id + 2)
+
+Checks if second next row has the same number.
+
+4. Both conditions true
+
+👉 Means 3 consecutive rows have same number
+
+Example:
+
+id	num
+1	5
+2	5
+3	5
+
+So → 5 is selected
+
+5. distinct
+
+Avoids duplicates
+
+Returns each number only once
 </pre>
