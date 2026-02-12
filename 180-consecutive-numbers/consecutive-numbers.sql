@@ -1,4 +1,5 @@
-# Write your MySQL query statement below
+# Write your MySQL query statement below:
+  
 select 
   distinct a.num as ConsecutiveNums from logs a 
   where a.num=(select num from logs where id=a.id+1)
