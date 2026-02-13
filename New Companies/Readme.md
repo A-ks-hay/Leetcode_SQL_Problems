@@ -62,5 +62,10 @@ Company Table:
 
 <img width="738" height="187" alt="image" src="https://github.com/user-attachments/assets/183a39dc-6be1-4ea7-88b7-f36cc0fe8fc3" />
 
+Sample Output
+
+C1 Monika 1 2 1 2
+
+C2 Samantha 1 1 2 2
 
 
